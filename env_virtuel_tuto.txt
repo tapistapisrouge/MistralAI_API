@@ -1,0 +1,17 @@
+Aller sur l'invite de commande windows ou powershell
+
+Aller sur le chemin :
+cd C:\Users\Antedis\Documents\APE_2022\python_projects\API_mistralAI
+
+(pour créer lenvironnement virtuel : python -m venv env_mistralAI)
+
+Activer l'environnement virtuel :
+.\env_mistralAI\Scripts\activate
+(si impossibilité d'exécuter des .ps1 faire en mode admin : Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser)
+
+Installer des packages/modules :
+pip install mistralai
+
+SPYDER :
+Aller dans tools -> Preferences -> Python interpreter, mettre le chemin vers le python.exe de l'env virtuel
+Si pb dans spyder, faire pip install spyder-kernels==2.5.* dans l'invite de commande (env activé)

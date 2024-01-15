@@ -1,0 +1,17 @@
+tuto GIT
+
+1) aller dans l'invite de commande et aller sur le dossier voulu
+cd C:\???
+
+1.5) si besoin
+git config --global user.name "Votre Nom"
+git config --global user.email "votreemail@example.com"
+(tester avec git config user.name, et git config user.email)
+
+
+2) initialiser
+git init
+
+3)
+
+
